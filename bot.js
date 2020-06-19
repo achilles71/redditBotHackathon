@@ -65,4 +65,4 @@ getDevStories = () => {
 getDevStories();
 // Set how often the bot will run in milliseconds. Be careful not to set it for too frequently!
 // This one is set for an hour
-setInterval(getDevStories, 1800000);
+setInterval(getDevStories, 9000000);
