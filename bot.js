@@ -23,7 +23,7 @@ const reddit = new snoowrap({
 // Our main function that will call the Reddit api for new stories in a specific subreddit
 // if you aren't familiar with ES6 syntax, the sub will default to /r/aww, the number of stories to 10.
 // The arrows are one way of writing functions in ES6.
-getNewStories = (sub='sluts', num=10) => {
+getNewStories = (sub='Miakhalifa', num=10) => {
     reddit.getSubreddit(sub).getHot()
     .then(function(listing) {
         for (var i = 0; i < num ; i++) {
